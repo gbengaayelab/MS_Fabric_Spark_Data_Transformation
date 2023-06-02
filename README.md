@@ -13,6 +13,17 @@ This repository contains a Spark notebook for exploring and analyzing sales orde
 - [Running SQL Queries](#running-sql-queries)
 
 ## Introduction
+Exciting Discovery on Spark with Microsoft Fabric! 🎉
+
+Are you transitioning from a traditional Relational Database environment and eager to wear your SQL hat? Look no further! I've made an incredible discovery about Spark's magic environment on Microsoft Fabric, particularly leveraging the power of Microsoft Fabric's Delta Table functionality.
+
+Imagine merging several files with just a single line of PySpark code, something that would have taken multiple steps with Power Query on Power BI using its Append Query feature. Spark simplifies this process, making it effortless to combine data from different sources.
+
+But wait, there's more! Adding new columns to your dataset becomes a seamless task with PySpark. No more complex transformations or scripting required. Spark empowers you to expand your data effortlessly, streamlining your workflow.
+
+And that's not all! Spark also enables various data transformations. You can convert your data from CSV to Parquet files effortlessly. By organizing Parquet files in chronological order (Years >> Months >> Days), you can greatly enhance the loading time and overall performance of your Spark jobs. It's a breeze!
+
+To help you get started, I've created a practical walkthrough lab on Microsoft Fabric's data engineering playground - Notebook. You can find the code and repository download links in this post.
 The SalesOrder_Spark_Notebook repository provides a notebook that demonstrates how to explore and analyze sales order data using PySpark. The notebook includes code snippets and explanations for each step, allowing users to understand and customize the data exploration process.
 
 ## Prerequisites
